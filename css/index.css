@@ -74,6 +74,8 @@
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: #555;
+
+
 }
 
 #about .btn-primary {
@@ -86,6 +88,7 @@
 .about-content{
 	padding-top: 20px;
 }
+
 #more{
 	display: none;
 }
@@ -121,18 +124,45 @@ button{
 	width: 170px;
 	margin:20px auto 5px;
 }
-/*===========================our team*/
-#team{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	color: #555;
+#services h3{
+	font-size: 20px;
+	padding: 50px;
 }
-.class{
+/*-----------------------map----------*/
+.map{
+	padding-top: 0px;
+
+
+}
+#location h1{
+
+	
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+
+}
+
+#location h1::after{
+	content: '';
+	background:#efefef;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+}
+/*________________________________get in touch---------------*/
+
+#contact h1{
+
 	text-align: center;
 	color: #555!important;
 	padding-bottom: 10px;
+	padding-top: 40px;
 }
-.class::after{
+
+#contact h1:after{
 	content:'';
 	background: #007bff;
 	display: block;
@@ -141,72 +171,33 @@ button{
 	margin:20px auto 5px;
 }
 
-
-.profile-pic{
-	margin-top: 25px;
-
+.contact-form{
+	padding: 30px;
 }
-.profile-pic .img-box{
-	opacity: 1;
-	display: block;
-	position: relative;
-}
-.profile-pic .img-box img{
-	filter: grayscale(1);
+.form-control{
+	border-radius: 0!important;
+	border: none;
 
 }
 
-.profile-pic .img-box img:hover{
-	filter: grayscale(0);
-	cursor: pointer;
-
+.form-group:placeholder{
+	color:#999!important;
 }
-.profile-pic h2{
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 15px;
-	color: #007bff!important;
-
-}
-.profile-pic h3{
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: 15px;
-	
-	
-}
-#team .fa {
-	height: 25px;
-	width: 25px;
-	color: #007bff!important;
+.follow{
 	background:#fff;
-	padding: 4px;
-	border-radius: 50%;
-
+	padding: 10px;
+	margin: 15px;
 }
-.img-box ul{
-	padding: 15px 0;
-    !position: absolute;
-    z-index:2;
-    bottom: 0;
-    left:50%;
-    transform: translateX(-50%);
-
+#contact{
+	background:rgb(242, 242, 242);
 }
-
-.img-box ul li{
-	padding:5px;
-	display: inline-block;
-
+.contact-info{
+	padding: 10px;
 }
-.img-box:hover ul{
-	opacity: 1;
-
-}
-
-.img-box ul,.img-box ul li{
-	transition: 0.5s;
-}
-.img-box img{
-	border:groove;
+/***********************footer*/
+.fa-heart-o {
+	margin: 3px;
+	color: red;
+	font-color:white;
+	background:black;
 }

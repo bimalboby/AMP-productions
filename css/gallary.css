@@ -1,0 +1,53 @@
+body{
+	font-family: sans-serif;
+
+}
+h1{
+	
+
+	text-align: center;
+	color: #555!important;
+	padding-bottom: 10px;
+}
+h1::after{
+	content:'';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+}
+
+
+
+	
+}
+.gallary{
+	margin: 10px 50px;
+
+}
+.gallary img{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.gallary img:hover{
+	filter: grayscale(0);
+	transform:scale(1.1);
+}
+
+.gallary h2{
+	text-align: center;
+	font-weight: 800;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+.gallary h3{
+	text-align: left;
+	font-weight: 300;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
